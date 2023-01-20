@@ -1,0 +1,169 @@
+.image20Icon {
+  position: absolute;
+  top: 0;
+  left: 160.72px;
+  width: 199.28px;
+  height: 252.96px;
+  object-fit: cover;
+}
+.backgroundIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div {
+  position: absolute;
+  top: calc(50% - 8px);
+  right: 8px;
+  display: inline-block;
+  width: 37px;
+}
+.pxIcon {
+  top: calc(50% - 9px);
+  left: 8px;
+  width: 18px;
+  height: 18px;
+}
+.pxIcon,
+.pxIcon1,
+.pxIcon2 {
+  position: absolute;
+  display: none;
+}
+.pxIcon1 {
+  top: calc(50% - 9px);
+  left: 28px;
+  width: 18px;
+  height: 18px;
+}
+.pxIcon2 {
+  left: 48px;
+}
+.pxIcon2,
+.pxIcon3,
+.pxIcon4 {
+  top: calc(50% - 9px);
+  width: 18px;
+  height: 18px;
+}
+.pxIcon3 {
+  position: absolute;
+  left: 68px;
+  display: none;
+}
+.pxIcon4 {
+  left: 88px;
+}
+.carrierName,
+.pxIcon4,
+.pxIcon5 {
+  position: absolute;
+  display: none;
+}
+.pxIcon5 {
+  top: calc(50% - 9px);
+  right: 106px;
+  width: 18px;
+  height: 18px;
+}
+.carrierName {
+  top: calc(50% - 8px);
+  left: 8px;
+  text-align: left;
+  width: 43px;
+  height: 16px;
+}
+.batteryStdIcon,
+.signalCellular4BarIcon,
+.signalWifi4BarIcon {
+  position: absolute;
+  top: calc(50% - 9px);
+  right: 86px;
+  width: 18px;
+  height: 18px;
+}
+.batteryStdIcon,
+.signalCellular4BarIcon {
+  right: 66px;
+}
+.batteryStdIcon {
+  right: 46px;
+}
+.statusBardark {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.nativeandroidstatusBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(90.25deg, #7bd5cf, rgba(18, 135, 127, 0));
+  width: 360px;
+  height: 24px;
+}
+.kids {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.wallet {
+  margin: 0;
+}
+.kidsWallet {
+  position: absolute;
+  top: 350px;
+  left: 110px;
+  font-size: var(--display-medium-sz-typo-display-bold-medium-size);
+  line-height: 54px;
+  color: var(--light-typography-typical-sz-colour-typo-typical);
+  text-align: center;
+}
+.image21Icon,
+.image22Icon,
+.image23Icon {
+  position: absolute;
+  top: 450px;
+  left: 199px;
+  width: 161px;
+  height: 232.27px;
+  object-fit: cover;
+}
+.image21Icon,
+.image23Icon {
+  top: 535px;
+  left: 0;
+  width: 259.34px;
+  height: 265px;
+}
+.image21Icon {
+  top: 149px;
+  width: 142.37px;
+  height: 247.37px;
+}
+.launchPage {
+  position: relative;
+  background: linear-gradient(
+    159.55deg,
+    rgba(217, 253, 251, 0.51) 30.21%,
+    rgba(8, 185, 173, 0.51)
+  );
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  mix-blend-mode: normal;
+  text-align: right;
+  font-size: var(--ui-body-body-2-size);
+  color: var(--color-gray-1300);
+  font-family: var(--display-medium-sz-typo-display-bold-medium);
+}

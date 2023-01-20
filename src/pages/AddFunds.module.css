@@ -1,0 +1,383 @@
+.backgroundIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div {
+  position: absolute;
+  top: calc(50% - 8px);
+  right: 8px;
+  display: inline-block;
+  width: 37px;
+}
+.pxIcon {
+  top: calc(50% - 9px);
+  left: 8px;
+  width: 18px;
+  height: 18px;
+}
+.pxIcon,
+.pxIcon1,
+.pxIcon2 {
+  position: absolute;
+  display: none;
+}
+.pxIcon1 {
+  top: calc(50% - 9px);
+  left: 28px;
+  width: 18px;
+  height: 18px;
+}
+.pxIcon2 {
+  left: 48px;
+}
+.pxIcon2,
+.pxIcon3,
+.pxIcon4 {
+  top: calc(50% - 9px);
+  width: 18px;
+  height: 18px;
+}
+.pxIcon3 {
+  position: absolute;
+  left: 68px;
+  display: none;
+}
+.pxIcon4 {
+  left: 88px;
+}
+.carrierName,
+.pxIcon4,
+.pxIcon5 {
+  position: absolute;
+  display: none;
+}
+.pxIcon5 {
+  top: calc(50% - 9px);
+  right: 106px;
+  width: 18px;
+  height: 18px;
+}
+.carrierName {
+  top: calc(50% - 8px);
+  left: 8px;
+  text-align: left;
+  width: 43px;
+  height: 16px;
+}
+.batteryStdIcon,
+.signalCellular4BarIcon,
+.signalWifi4BarIcon {
+  position: absolute;
+  top: calc(50% - 9px);
+  right: 86px;
+  width: 18px;
+  height: 18px;
+}
+.batteryStdIcon,
+.signalCellular4BarIcon {
+  right: 66px;
+}
+.batteryStdIcon {
+  right: 46px;
+}
+.statusBardark {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(
+    --light-surface-background-sz-colour-surface-background
+  );
+}
+.nativeandroidstatusBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--action-primary-sz-colour-action-primary);
+  width: 360px;
+  height: 24px;
+  text-align: right;
+  color: var(--color-gray-1300);
+  font-family: var(--font-roboto);
+}
+.labelText {
+  position: relative;
+  letter-spacing: 0.26px;
+  line-height: 20px;
+}
+.labelTextContainer {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-xs) var(--padding-xs) 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tooltipIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.label,
+.tooltipIconContainer {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.tooltipIconContainer {
+  display: none;
+  padding: var(--padding-xs);
+  align-items: flex-start;
+}
+.label {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  gap: var(--gap-2xs);
+}
+.helperText {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.32px;
+  line-height: 16px;
+}
+.helperTextContainer,
+.labelWrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.helperTextContainer {
+  display: none;
+  flex-direction: row;
+  font-size: var(--component-body-body-bold-3-size);
+  color: var(--secondary-grey-grey-80);
+}
+.labelWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.span {
+  color: var(--secondary-grey-grey-60);
+}
+.inputText {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.26px;
+  line-height: 20px;
+}
+.inputTextContainer {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) 0;
+  align-items: center;
+  justify-content: flex-start;
+}
+.remixIconslinesystemeyeLi {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.input,
+.trailingIconContainer {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.trailingIconContainer {
+  display: none;
+  padding: var(--padding-xs);
+  align-items: flex-start;
+}
+.input {
+  border-radius: var(--br-sm);
+  background-color: var(
+    --light-surface-background-sz-colour-surface-background
+  );
+  border: 1px solid var(--secondary-grey-grey-100);
+  display: flex;
+  padding: var(--padding-md);
+  align-items: center;
+  gap: var(--gap-2xs);
+}
+.textField {
+  position: absolute;
+  top: 192px;
+  left: 16px;
+  width: 328px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-sm);
+}
+.b,
+.labelText1 {
+  position: relative;
+}
+.labelText1 {
+  letter-spacing: 0.24px;
+  line-height: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.b {
+  letter-spacing: 0.16px;
+  line-height: 24px;
+}
+.scripLtp {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--ui-heading-heading-5-size);
+}
+.cardexpandableinteractive,
+.cardexpandableinteractiveInner,
+.labelTextParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.labelTextParent {
+  flex: 1;
+  gap: var(--gap-2xs);
+}
+.cardexpandableinteractive,
+.cardexpandableinteractiveInner {
+  width: 296px;
+}
+.cardexpandableinteractive {
+  position: absolute;
+  top: 103px;
+  left: 15px;
+  border-radius: var(--br-md);
+  background-color: var(--tertiary-neutral-neutral-1);
+  border: 1px solid var(--secondary-grey-grey-30);
+  box-sizing: border-box;
+  width: 330px;
+  flex-direction: column;
+  padding: var(--padding-xl);
+  align-items: flex-start;
+  font-size: var(--component-body-body-bold-3-size);
+}
+.headerText {
+  display: none;
+}
+.headerText,
+.headerText1 {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.16px;
+  line-height: 24px;
+}
+.appBar {
+  position: absolute;
+  top: 24px;
+  left: 0;
+  background-color: var(
+    --light-surface-background-sz-colour-surface-background
+  );
+  width: 360px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  font-size: var(--ui-heading-heading-5-size);
+}
+.b1 {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.24px;
+  line-height: 20px;
+}
+.inputHelperGroup,
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.wrapper {
+  flex: 1;
+  border-radius: var(--br-sm);
+  background-color: var(--surface-secondary-sz-colour-surface-secondary);
+  padding: var(--padding-md);
+  align-items: center;
+  justify-content: center;
+}
+.inputHelperGroup {
+  position: absolute;
+  top: 280px;
+  left: 16px;
+  width: 328px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  text-align: center;
+  color: var(--dark-action-tertiary-sz-colour-action-tertiary);
+}
+.buttonText {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.26px;
+  line-height: 18px;
+}
+.button,
+.buttonGroup {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+}
+.button {
+  flex: 1;
+  border-radius: var(--br-md);
+  background-color: var(--action-primary-sz-colour-action-primary);
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+}
+.buttonGroup {
+  position: absolute;
+  top: 400px;
+  left: 0;
+  width: 360px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  color: var(--light-surface-background-sz-colour-surface-background);
+}
+.addFunds {
+  position: relative;
+  background-color: var(
+    --light-surface-background-sz-colour-surface-background
+  );
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--ui-body-body-2-size);
+  color: var(--typography-primary-sz-colour-typo-primary);
+  font-family: var(--display-medium-sz-typo-display-bold-medium);
+}

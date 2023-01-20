@@ -1,0 +1,313 @@
+.remixIconsfillsystemclose {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.closeButton {
+  border-radius: 24px;
+  background-color: var(--secondary-grey-grey-100);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-md);
+  align-items: center;
+  justify-content: center;
+}
+.addGoal {
+  position: relative;
+  letter-spacing: 0.16px;
+  line-height: 28px;
+  display: inline-block;
+  width: 240px;
+}
+.onceCreatedGoals {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--component-body-body-bold-3-size);
+  letter-spacing: 0.32px;
+  line-height: 18px;
+  color: var(--secondary-grey-grey-60);
+}
+.frameHeading,
+.frameHeadingWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameHeading {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-2xs);
+}
+.frameHeadingWrapper {
+  align-self: stretch;
+  flex-direction: row;
+}
+.frameHeadingToggle {
+  width: 328px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.labelText {
+  position: relative;
+  letter-spacing: 0.26px;
+  line-height: 20px;
+}
+.labelTextContainer {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-xs) var(--padding-xs) 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tooltipIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.label,
+.tooltipIconContainer {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.tooltipIconContainer {
+  display: none;
+  padding: var(--padding-xs);
+  align-items: flex-start;
+}
+.label {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  gap: var(--gap-2xs);
+}
+.helperText {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.32px;
+  line-height: 16px;
+}
+.helperTextContainer,
+.labelWrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.helperTextContainer {
+  display: none;
+  flex-direction: row;
+  font-size: var(--component-body-body-bold-3-size);
+  color: var(--secondary-grey-grey-80);
+}
+.labelWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.inputText {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.26px;
+  line-height: 20px;
+}
+.inputTextContainer {
+  flex: 1;
+  display: flex;
+  padding: var(--padding-sm) 0;
+  align-items: center;
+}
+.input,
+.inputTextContainer,
+.trailingIconContainer {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.trailingIconContainer {
+  display: none;
+  padding: var(--padding-xs);
+  align-items: flex-start;
+}
+.input {
+  border-radius: var(--br-sm);
+  background-color: var(
+    --light-surface-background-sz-colour-surface-background
+  );
+  border: 1px solid var(--secondary-grey-grey-30);
+  display: flex;
+  padding: var(--padding-md);
+  align-items: center;
+  gap: var(--gap-2xs);
+  color: var(--secondary-grey-grey-60);
+}
+.frameHeadingToggleParent,
+.frameSpendLimit,
+.textField {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.textField {
+  width: 328px;
+  justify-content: center;
+  gap: var(--gap-sm);
+}
+.frameHeadingToggleParent,
+.frameSpendLimit {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.frameSpendLimit {
+  font-size: var(--ui-body-body-2-size);
+}
+.frameHeadingToggleParent {
+  padding: 0 var(--padding-xl);
+  text-align: left;
+}
+.remixIconsfillsystemaddCi {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.buttonText {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 12px;
+  text-transform: uppercase;
+}
+.textButton,
+.textButton1 {
+  border-radius: var(--br-md);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.textButton1 {
+  align-items: center;
+  gap: var(--gap-sm);
+}
+.textButton {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.instruction {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--ui-body-body-2-size);
+  letter-spacing: 0.26px;
+  line-height: 20px;
+  color: var(--secondary-grey-grey-80);
+}
+.addNominee,
+.textButtonParent {
+  display: flex;
+  flex-direction: column;
+}
+.textButtonParent {
+  align-self: stretch;
+  padding: var(--padding-md);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-sm);
+}
+.addNominee {
+  border-radius: var(--br-md);
+  background-color: var(
+    --light-surface-background-sz-colour-surface-background
+  );
+  border: 1px dashed var(--tertiary-aqua-deep-aqua-deep-40);
+  box-sizing: border-box;
+  width: 328px;
+  overflow: hidden;
+  padding: var(--padding-xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--component-body-body-bold-3-size);
+  color: var(
+    --light-typography-secondary-action-sz-colour-typo-action-secondary
+  );
+}
+.buttonText1 {
+  position: relative;
+  letter-spacing: 0.26px;
+  line-height: 18px;
+}
+.button {
+  border-radius: var(--br-md);
+  background-color: var(--surface-secondary-sz-colour-surface-secondary);
+  border: 1px solid var(--secondary-grey-grey-30);
+  box-sizing: border-box;
+  width: 158px;
+  height: 48px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xl);
+  align-items: center;
+  justify-content: center;
+}
+.buttonText2 {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.26px;
+  line-height: 18px;
+}
+.button1,
+.buttonGroup {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xl);
+}
+.button1 {
+  flex: 1;
+  border-radius: var(--br-md);
+  background-color: var(--action-primary-sz-colour-action-primary);
+  height: 48px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  color: var(--light-surface-background-sz-colour-surface-background);
+}
+.buttonGroup {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  font-size: var(--ui-body-body-2-size);
+  color: var(--action-primary-sz-colour-action-primary);
+}
+.bottomSheet,
+.closeButtonParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bottomSheet {
+  align-self: stretch;
+  border-radius: var(--br-lg) var(--br-lg) 0 0;
+  background-color: var(
+    --light-surface-background-sz-colour-surface-background
+  );
+  box-shadow: var(--elevation-0dp);
+  padding: var(--padding-xl) 0 0;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.closeButtonParent {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  justify-content: flex-end;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--ui-heading-heading-4-size);
+  color: var(--typography-primary-sz-colour-typo-primary);
+  font-family: var(--display-medium-sz-typo-display-bold-medium);
+}
