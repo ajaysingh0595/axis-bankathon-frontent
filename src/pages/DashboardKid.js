@@ -1,6 +1,11 @@
 import styles from "./DashboardKid.module.css";
 import Footer from "../components/Footer";
+import { useNavigate } from 'react-router-dom';
 const DashboardKid = () => {
+  const navigate = useNavigate();
+  const redirectSpendsPage =()=>{
+    navigate("/spends", { replace: true });
+  }
   return (
     <div className={styles.dashboardKid}>
       <div className={styles.frameParent}>
@@ -184,7 +189,7 @@ const DashboardKid = () => {
               />
             </div>
           </div>
-          <div className={styles.tag1}>
+          <div className={styles.tag1} >
             <div className={styles.tagWrapper1}>
               <img
                 className={styles.remixIconslinesystemarrow}
@@ -192,7 +197,7 @@ const DashboardKid = () => {
                 src="../remixiconsfillhealthheart3fill1.svg"
               />
               <div className={styles.textContainer}>
-                <div className={styles.text}>Spends</div>
+                <div className={styles.text} onClick={redirectSpendsPage}>Spends</div>
               </div>
               <img
                 className={styles.remixIconslinesystemarrow}

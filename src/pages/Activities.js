@@ -88,7 +88,7 @@ const Activities = () => {
                 alt=""
                 src="../leading-icon.svg"
               />
-              <div className={styles.tabName}>Goals</div>
+              <div className={styles.tabName}>Budget</div>
             </div>
           </div>
           <div className={styles.selectionIndicatorContainer}>
@@ -592,7 +592,7 @@ const Activities = () => {
             src="../avatar-frame1.svg"
           />
         </div>
-        <div className={styles.search}>
+        {/* <div className={styles.search}>
           <div className={styles.mainComponentSearch}>
             <img
               className={styles.remixIconslinesystemsearch}
@@ -613,7 +613,7 @@ const Activities = () => {
               />
             </div>
           </div>
-        </div>
+        </div> */}
         <img
           className={styles.iconfeathermenu}
           alt=""

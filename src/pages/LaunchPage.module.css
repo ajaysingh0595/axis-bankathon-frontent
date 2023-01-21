@@ -116,6 +116,7 @@
 .kids {
   margin-block-start: 0;
   margin-block-end: 0;
+  margin-left: -26px;
 }
 .wallet {
   margin: 0;

@@ -759,6 +759,7 @@
   display: flex;
   align-items: center;
   width: 264px;
+  font-size: 12px
 }
 .b {
   position: relative;

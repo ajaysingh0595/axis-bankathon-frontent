@@ -1,7 +1,8 @@
 import styles from "./FrameComponent.module.css";
 
-const FrameComponent = () => {
+const FrameComponent = ({isShowAdd}) => {
   return (
+    
     <div className={styles.closeButtonParent}>
       <div className={styles.closeButton}>
         <img

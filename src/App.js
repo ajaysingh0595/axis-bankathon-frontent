@@ -11,7 +11,9 @@ import PasswordAndDOB from "./pages/PasswordAndDOB";
 import LaunchPage from "./pages/LaunchPage";
 import FrameComponent from "./pages/FrameComponent";
 import ActivitiesComponent from "./pages/Activities";
+import DisplaySpends from "./pages/DisplaySpends";
 import { useEffect } from "react";
+import GoalDashboard from "./pages/GoalDashboard"
 
 function App() {
   const action = useNavigationType();
@@ -57,6 +59,14 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/spends":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/goal-dashboard":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -76,12 +86,15 @@ function App() {
   return (
     <Routes>
       <Route path="/home" element={<DashboardKid />} />
-      <Route path="/" element={<PasswordAndDOB />} />
+      <Route path="/" element={<LaunchPage />} />
+      <Route path="/login" element={<PasswordAndDOB />} />
       <Route path="/activities" element={<ActivitiesComponent />} />
       <Route path="/add-funds" element={<AddFunds />} />
-      <Route path="/goal" element={<ActivitiesKId />} />
-      <Route path="/launch-page" element={<LaunchPage />} />
+      <Route path="/goal" element={<GoalDashboard />} />
+      {/* <Route path="/launch-page" element={<LaunchPage />} /> */}
       <Route path="/goal-add" element={<FrameComponent />} />
+      <Route path="/spends" element={<DisplaySpends />} />
+      <Route path="/goal-details" element={<ActivitiesKId />} />
     </Routes>
     
   );

@@ -34,15 +34,16 @@ const PasswordAndDOB = () => {
     }else if(!password){
       toast('Please enter password', tost_config);
     }else{
-      auth.loginService({username,password}).then(response => {
-        console.log(response)
-        const token  =  response.data.token;
-        localStorage.setItem("token", token);
-        localStorage.setItem("userdata", JSON.stringify(response.data));
-        redirectPage();
-      }).catch((e)=>{
-        toast('invalid username & password ', tost_config);
-      })
+      redirectPage();
+      // auth.loginService({username,password}).then(response => {
+      //   console.log(response)
+      //   const token  =  response.data.token;
+      //   localStorage.setItem("token", token);
+      //   localStorage.setItem("userdata", JSON.stringify(response.data));
+      //   redirectPage();
+      // }).catch((e)=>{
+      //   toast('invalid username & password ', tost_config);
+      // })
   }
   }
  
@@ -204,11 +205,11 @@ const PasswordAndDOB = () => {
           </div>
         </div> */}
       </div>
-      <img
+      {/* <img
         className={styles.galleryImg51Icon}
         alt=""
         src="../gallery-img5-1@2x.png"
-      />
+      /> */}
       <div className={styles.tabs}>
         <div className={styles.tabsBase}>
           <div className={styles.wrapper}>
